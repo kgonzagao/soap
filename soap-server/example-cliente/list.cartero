@@ -1,0 +1,23 @@
+version = 1
+url = "http://localhost:8080/ws"
+method = "POST"
+
+[body]
+type = "raw"
+format = "xml"
+body = '''
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:emp="http://kgonzaga.com/soap/employee-web-service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <emp:getAllEmployeesRequest/>
+   </soapenv:Body>
+</soapenv:Envelope>'''
+
+[headers]
+Content-Type = "text/xml; charset=utf-8"
+SOAPAction = '""'
+
+[variables]
+
+[inactive-params]

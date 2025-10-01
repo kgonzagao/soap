@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2025.10.01 a las 12:39:04 PM ECT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://kgonzaga.com/soap/employee-web-service">
+    <schemaBindings map="false">
+      <package name="com.kgonzaga.soap_serve.app.presentation.dto"/>
+    </schemaBindings>
+    <bindings scd="tns:createEmployeeRequest">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.CreateEmployeeRequest"/>
+    </bindings>
+    <bindings scd="~tns:employee">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.Employee"/>
+    </bindings>
+    <bindings scd="tns:createEmployeeResponse">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.CreateEmployeeResponse"/>
+    </bindings>
+    <bindings scd="tns:getEmployeeRequest">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.GetEmployeeRequest"/>
+    </bindings>
+    <bindings scd="tns:getEmployeeResponse">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.GetEmployeeResponse"/>
+    </bindings>
+    <bindings scd="tns:getAllEmployeesRequest">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.GetAllEmployeesRequest"/>
+    </bindings>
+    <bindings scd="tns:getAllEmployeesResponse">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.GetAllEmployeesResponse"/>
+    </bindings>
+    <bindings scd="tns:updateEmployeeRequest">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.UpdateEmployeeRequest"/>
+    </bindings>
+    <bindings scd="tns:updateEmployeeResponse">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.UpdateEmployeeResponse"/>
+    </bindings>
+    <bindings scd="tns:deleteEmployeeRequest">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.DeleteEmployeeRequest"/>
+    </bindings>
+    <bindings scd="tns:deleteEmployeeResponse">
+      <class ref="dto.presentation.com.kgonzaga.soap_server.app.DeleteEmployeeResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
